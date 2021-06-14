@@ -26,15 +26,25 @@
 			</form>
 		</div>
 	</form>
-	<div id="02">
-	</div>
+	<div id="porto-item">
+	<?php for($i = 1; $i <= 5; $i++) { ?>
+		<div class="porto-title"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b></div>
+		<div class="porto-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+		<a class="button" href="#detail">Detail</a>
+	<?php } ?>
+</div>
 </body>
 <script type="text/javascript">
 	$(document).ready(function(){
 		$("#jumlah_porto").change(function(){
-			var selectedcolor = $('#jumlah_porto').val();
-			alert(selectedcolor);
-			$("#02").html('<div class="porto-title"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b></div><div class="porto-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><a class="button" href="#detail">Detail</a></div>');			
+			var n = $('#jumlah_porto').val();
+			html = "";
+			for(i = 1; i <= n; i++){
+				html += '<div class="porto-title"><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b></div><div class="porto-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div><a class="button" href="#detail">Detail</a></div>';
+			}
+			$("#porto-item").html(html);
+
 		});		
 	});	
 </script>
