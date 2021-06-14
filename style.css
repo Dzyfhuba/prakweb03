@@ -1,0 +1,14 @@
+body{
+	background-color: #7e8da2;
+}
+
+.active{
+	background-color: #0d7c0c;
+}
+.name{
+	text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
