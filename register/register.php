@@ -39,9 +39,7 @@ if(isset($_POST['register'])){
 	$saved = $stmt->execute($params);
 	session_start();
 	$_SESSION["user"] = $user;
-    // jika query simpan berhasil, maka user sudah terdaftar
-    // maka alihkan ke halaman login
-	if($saved) header("Location: http://".$SERVER_NAME."/".$PROJECT_NAME."/about");
+	if($saved) header("Location: http://".$SERVER_NAME."/".$PROJECT_NAME."/");
 }
 
 ?>

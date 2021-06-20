@@ -65,7 +65,7 @@
               <div class="invalid-feedback">Please fill out this field.</div>
             </div>
             <div class="row justify-content-center fixed-bottom position-sticky m-1">
-              <button type="submit" class="btn btn-primary w-75" name="register">login</button>
+              <button type="submit" class="btn btn-primary w-75" name="register">Register</button>
             </div>
           </form>
         </div>

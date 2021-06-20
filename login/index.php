@@ -1,6 +1,7 @@
 <?php include "../env.php" ?>
 <?php include "../config.php" ?>
 <?php include "../profile.php" ?>
+<?php include "../auth.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,7 +31,7 @@
                             <div class="valid-feedback">Valid.</div>
                             <div class="invalid-feedback">Please fill out this field.</div>
                         </div>
-                        <button type="submit" class="btn btn-primary w-100" name="login">login</button>
+                        <button type="submit" class="btn btn-primary w-100" name="login">Login</button>
                     </form>
                 </div>
             </div>
