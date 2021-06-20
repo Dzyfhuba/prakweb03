@@ -1,2 +1,2 @@
 <?php
-header("Location: dashboard");
+header("Location: home");

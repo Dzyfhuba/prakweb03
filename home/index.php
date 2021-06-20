@@ -1,3 +1,7 @@
+<?php include "../env.php" ?>
+<?php include "../config.php" ?>
+<?php include "../profile.php" ?>
+<?php include "../auth.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

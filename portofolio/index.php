@@ -1,3 +1,7 @@
+<?php include "../env.php" ?>
+<?php include "../config.php" ?>
+<?php include "../profile.php" ?>
+<?php include "../auth.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,7 +26,6 @@
 					<option value="9">9</option>
 					<option value="10">10</option>
 				</select>
-				<input type="submit" value="Sort" />
 			</form>
 		</div>
 	</form>
