@@ -10,8 +10,8 @@
 <body>
     <?php include "../navbar.php" ?>
     <div class="name">
-        <h2>Selamat Datang di Website Saya</h2>
-        <h4>Hafidz Ubaidillah - 190602043</h4>
+        <h1>Selamat Datang di Website Saya</h1>
+        <p>Hafidz Ubaidillah - 190602043</p>
     </div>
     <?php include "../footer.php" ?>
 </body>

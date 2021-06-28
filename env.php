@@ -1,6 +1,6 @@
 <?php
 
-$APP_NAME = "PrakWeb02";
+$APP_NAME = "PrakWebCPK";
 $SERVER_NAME = "localhost";
 $PROJECT_NAME = "prakweb02";
 $DB_NAME = "prakweb02";

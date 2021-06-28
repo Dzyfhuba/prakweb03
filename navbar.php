@@ -21,7 +21,7 @@ function isLoggedIn()
         <li class="nav-item <?php if ($currentRoute == "about") echo " active" ?>">
             <a class="nav-link" href="<?php if ($currentRoute != "about") echo "../about" ?>">About</a>
         </li>
-        <?php if (!isLoggedIn()) { ?>
+        <!-- <?php if (!isLoggedIn()) { ?>
             <li class="nav-item <?php if ($currentRoute == "login") echo " active" ?>">
                 <a class="nav-link" href="<?php if ($currentRoute != "login") echo "../login" ?>">Login</a>
             </li>
@@ -32,6 +32,6 @@ function isLoggedIn()
             <li class="nav-item bg-danger <?php if ($currentRoute == "logout") echo " active" ?>">
                 <a class="nav-link" href="<?php if ($currentRoute != "logout") echo "../logout.php" ?>">Logout</a>
             </li>
-        <?php } ?>
+        <?php } ?> -->
     </ul>
 </nav>
